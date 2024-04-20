@@ -3,7 +3,7 @@ param (
 )
 
 # Construct the URL of the raw file using the repository name and file name
-$url = "https://github.com/Abhi-vish/CMDTool/raw/main/Ps1Tool/Content/$FileName"
+$url = "https://github.com/Abhi-vish/Ps1Tool/raw/main/Content/$FileName"
 
 # Download the file content from the URL
 $content = Invoke-WebRequest -Uri $url

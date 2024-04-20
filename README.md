@@ -1,26 +1,23 @@
-# CMDHelpMeTool
+# PowerShell Clipboard Tool
 
-CMDHelpMeTool is a command-line tool for managing files and copying variable content to the clipboard.
+This PowerShell script allows you to copy the content of a file to the clipboard. You can use it to quickly copy the content of any text file, such as code snippets, configuration files, or plain text documents.
 
-## Installation
-
-You can install CMDHelpMeTool via pip:
-
-```bash
-pip install CMDHelpMeTool
-```
 ## Usage
 
-### Command
-- `helpme copy_experiment <exp_no>`: Copy the content of a variable to the clipboard.
+1. **Download the Script:**
+   
+   You can download the PowerShell script (`Ps1helper.ps1`) from the GitHub repository. Use the following command to download the script:
 
-### Examples
+   ```bash
+   Invoke-WebRequest -Uri "https://github.com/Abhi-vish/Ps1Tool/raw/main/Ps1helper.ps1" -OutFile "helper.ps1"
+    ```
 
-- Copy the file:
+2. **To Execute the Script:**
+    After downloading the script, you can execute it by providing the file name you want to copy as an argument. For example:
 
-  ```bash
-  helpme copy_experiment exp_1
-  ```
-## License
+    ```bash
+    .\helper.ps1 -FileName "exp1.py"
+    ```
+## Parameters
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- **FileName:** The name of the file whose content you want to copy to the clipboard.
