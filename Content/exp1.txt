@@ -49,6 +49,19 @@ Designed by Jericho forum, it categorizes cloud networks based on four dimension
 3. De-Perimeterized/Perimeterized (Security Range)
 4. Insourced/Outsourced.
 
+**1. Internal/External:**
+Internal: Resources are hosted within your own physical boundaries.
+External: Resources are hosted outside your physical boundaries.
+
+**2. Proprietary/Open:**
+The proprietary dimension means that the organization providing the service secures and protects the data under their ownership. The open dimension involves technology with multiple suppliers, allowing users to share data and collaborate with selected partners freely.
+
+**3. Perimeterized/De-perimeterized:**
+Perimeterized dimension involves operating within traditional IT boundaries, often signaled by network firewalls. De-perimeterized dimension follows principles outlined in the Jericho forums, where the system perimeter is architected to encapsulate data with metadata and mechanisms, enhancing data protection and limiting inappropriate usage.
+
+**4. Insourced/Outsourced:**
+In the outsourced dimension, services are provided by third parties. In the insourced dimension, services are provided by the organization's own staff under their control.
+
 **Conclusion:**
 
 The Cloud Cube Model aids in selecting secure cloud formations, emphasizing encryption and key management for confidentiality and integrity. It benefits users by providing a secure environment, challenging traditional notions of network boundaries. Understanding cloud models and dimensions is crucial for effective deployment and management in modern computing environments.
