@@ -1,0 +1,20 @@
+
+## Usage
+
+1. **Download the Script:**
+   
+   You can download the PowerShell script (`Ps1helper.ps1`) from the GitHub repository. Use the following command to download the script:
+
+   ```bash
+   Invoke-WebRequest -Uri "https://github.com/Abhi-vish/Ps1Tool/raw/main/Ps1helper.ps1" -OutFile "helper.ps1"
+    ```
+
+2. **To Execute the Script:**
+    After downloading the script, you can execute it by providing the file name you want to copy as an argument. For example:
+
+    ```bash
+    .\helper.ps1 -FileName "exp1.py"
+    ```
+## Parameters
+
+- **FileName:** The name of the file whose content you want to copy to the clipboard.
