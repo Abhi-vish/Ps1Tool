@@ -1,0 +1,47 @@
+**Experiment no 4**
+
+**Aim:**
+To study and Implement Storage as a Service using Own Cloud/ AWS S3, Glaciers/ Azure Storage.
+
+**Theory:**
+Storage as a Service (STaaS) is a cloud-based business model where companies lease their storage infrastructure to others for data storage purposes. This model offers a convenient solution for managing backups and reducing costs associated with personnel, hardware, and physical storage space.
+
+STaaS provides several advantages, including reduced storage costs, enhanced disaster recovery capabilities, scalability to accommodate varying storage needs, automatic file syncing across devices, and improved security measures. However, it also presents challenges such as potential security risks, storage cost overruns, service downtimes, limited customization options, and the possibility of vendor lock-in.
+
+Amazon S3 (Simple Storage Service) is a prominent example of STaaS, offering highly durable and available object storage. It allows users to store files of up to 5 terabytes in size through a web services interface. Some of the key benefits of AWS S3 include:
+
+1. **Durability:** Amazon S3 provides an exceptional level of durability, ensuring that stored data is highly resistant to loss or corruption.
+
+2. **Low cost:** S3 offers various storage classes tailored to different access frequency and immediacy requirements, allowing users to optimize costs based on their usage patterns.
+
+3. **Scalability:** With AWS S3, users only pay for the storage resources they use, and there are no hidden fees or overage charges. This scalability enables organizations to adapt their storage resources easily to changing demands.
+
+4. **Availability:** S3 guarantees high availability of stored objects, ensuring that data is accessible whenever needed.
+
+5. **Security:** Amazon S3 provides a robust set of access management tools and encryption features to safeguard data at rest and during transmission.
+
+6. **Flexibility:** S3 supports a wide range of use cases, including data storage, backup, software delivery, archiving, disaster recovery, website hosting, mobile applications, and IoT devices.
+
+7. **Simple data transfer:** AWS S3 is designed for simplicity and ease of use, allowing users to execute data transfers without requiring advanced technical expertise.
+
+**Implementation:**
+1. Navigate to AWS Services -> Storage -> S3.
+2. Click on Create bucket.
+3. Provide Bucket name and choose AWS Region.
+4. Enable Bucket Versioning.
+5. Disable Default encryption and create the bucket.
+6. Upload files to the created bucket.
+7. Verify successful file uploads.
+8. Check different Version IDs for uploaded files.
+9. Copy ARN for the bucket.
+10. Edit Bucket Policy under Permissions -> Policy Generator.
+11. Generate and copy the Policy JSON document.
+12. Update and save the bucket policy.
+13. Confirm successful editing of the bucket policy.
+14. Delete objects inside the bucket.
+15. Review and confirm object deletion.
+16. Empty the bucket successfully.
+17. Delete the bucket.
+
+**Conclusion:**
+Thus, by exploring Storage as a Service and implementing it using AWS S3, we've gained insights into its benefits, including high durability, low cost, scalability, availability, security, flexibility, and simplicity in data transfer.
