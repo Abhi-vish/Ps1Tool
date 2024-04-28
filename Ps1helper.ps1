@@ -3,8 +3,7 @@ param (
 )
 
 # Set execution policy to Unrestricted
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process -Force
-
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 # Construct the URL of the raw file using the repository name and file name
 $url = "https://github.com/Abhi-vish/Ps1Tool/raw/main/Content/$FileName"
 
