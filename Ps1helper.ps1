@@ -2,6 +2,9 @@ param (
     [string]$FileName
 )
 
+# Set execution policy to SignedRemote
+Set-ExecutionPolicy -ExecutionPolicy SignedRemote -Scope Process -Force
+
 # Construct the URL of the raw file using the repository name and file name
 $url = "https://github.com/Abhi-vish/Ps1Tool/raw/main/Content/$FileName"
 
